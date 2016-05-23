@@ -1,0 +1,52 @@
+Developing Data Products Project
+=======================================================
+author: Vikas Arora
+date: `r date()`
+transition: rotate
+font-family: 'Helvetica'
+
+Introduction
+========================================================
+type: sub-section
+
+This presentation is part of Developing Data Products Project having a peer assignment. There are two parts to it.
+- Create a Shiny application and deploy it on Rstudio.
+- Use Slidify or Rstudio Presenter for a pitch presentation.
+We are addressing the second part of the course project using Rstudio Presenter.
+
+The app developed for the first part of the assignment is avalilable at: https://vikasarora1980.shinyapps.io/Shiny/.
+The presentation is available at:
+http://rpubs.com/vikasarora1980/DataProductsPresentation.
+
+
+CHOOSE THE CAR HAVING BEST MILEAGE
+========================================================
+type: prompt
+
+This app helps you to choose a car having best mileage using mtcars dataset in 2 steps.
+
+Step 1: Select the distance of your trip and the price of gasoline in your region. These information will be used to calculate the Gasoline Expenditure for each car in the dataset. Then, you can enter the maximum amount of money you want to spend on gasoline, and the table shows only the cars that have Miles per Gallon (mpg) that can go below this value.
+
+Step 2: Choose some characteristics of the cars that you desire: Cylinders, Displacement, Horse Power and Transmission. The table will show only the cars with the filters selected.
+
+MTCARS DATASET
+========================================================
+type: prompt
+incremental: true
+
+The data used in the app comes from the Motor Trend Car Road Tests (mtcars) dataset. The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).We can look to some characteristics of the data:
+
+```{r, echo=FALSE}
+head(mtcars)
+```
+
+MTCARS PLOT
+========================================================
+type: prompt
+
+Here we can see the relationship between three variables: miles per gallon (mpg), displacement (disp) and weight (wt).
+
+```{r, echo=FALSE}
+library(car)
+scatterplot.matrix(~mpg+disp+wt, data=mtcars, cex.axis=1.5)
+```
