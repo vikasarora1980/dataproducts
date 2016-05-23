@@ -1,7 +1,7 @@
 Developing Data Products Project
 =======================================================
 author: Vikas Arora
-date: Mon May 23 22:34:05 2016
+date: Mon May 23 22:58:57 2016
 transition: rotate
 font-family: 'Helvetica'
 
@@ -16,7 +16,9 @@ We are addressing the second part of the course project using Rstudio Presenter.
 
 The app developed for the first part of the assignment is avalilable at: https://vikasarora1980.shinyapps.io/Shiny/.
 The presentation is available at:
-http://rpubs.com/vikasarora1980/DataProductsPresentation.
+http://rpubs.com/vikasarora1980/DataProductsPitchPresentation.
+The code is present at
+https://github.com/vikasarora1980/dataproducts/.
 
 
 CHOOSE THE CAR HAVING BEST MILEAGE
