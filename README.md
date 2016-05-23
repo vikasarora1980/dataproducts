@@ -46,4 +46,4 @@ The app developed for the first part of the assignment is avalilable at:
 https://vikasarora1980.shinyapps.io/Shiny/
 
 The presentation is available at: 
-http://rpubs.com/vikasarora1980/DataProductsPresentation
+http://rpubs.com/vikasarora1980/DataProductsPitchPresentation
