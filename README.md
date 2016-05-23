@@ -42,7 +42,8 @@ You can also publish using both formats to github manually using gh-pages, thoug
 
 Github repository has  ui.R and server.R files for the first part of the Developing Data Products Course Project. The peer assessed assignment has two parts. First, we need to create a Shiny application and deploy it on Rstudio's servers. Second, we should use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about the application.
 
-The app developed for the first part of the assignment is avalilable at: hhttps://vikasarora1980.shinyapps.io/Shiny/
+The app developed for the first part of the assignment is avalilable at: 
+https://vikasarora1980.shinyapps.io/Shiny/
 
 The presentation is available at: 
 https://github.com/vikasarora1980/dataproducts/ppt
